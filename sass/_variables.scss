@@ -1,0 +1,29 @@
+// Google Fonts
+@import url("http://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css");
+
+// Colors
+$text-color: #424242;
+$light-text: lighten($text-color,20%);
+$link-color: #3498db;
+$twitter: #6CADDE;
+$linkedin: #0077B5;
+$github: #4183C4;
+
+// Type
+$main-font: 'Playfair Display', serif;
+$base-font-size: 16px;
+$base-line-height: 24px;
+
+// Mixins
+@mixin mobile {
+	@media (min-width: 0) and (max-width: 768px) {
+		padding-right: 8%;
+		padding-left: 8%;
+		//padding-top: 8%;
+	}
+	@media (min-width: 769px) {
+		//padding-top: 15%;
+		padding-left: 15%;
+		padding-right: 15%;
+	}
+}

@@ -1,0 +1,20 @@
+@include establish-baseline;
+
+body {
+	font-family: $main-font;
+	//@include debug-vertical-alignment
+}
+
+.welcome{
+	@include adjust-font-size-to(64px);
+	margin-bottom: rhythm(2,64px);
+}
+
+.lead{
+	@include adjust-font-size-to(36px);
+	margin-bottom: rhythm(1,36px)
+}
+
+.social-links, .samples, .welcome{
+	@include leader;
+}

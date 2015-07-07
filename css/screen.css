@@ -2,6 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import url("http://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -48,3 +49,82 @@ a img {
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  color: #424242; }
+
+@media (min-width: 0) and (max-width: 768px) {
+  .container {
+    padding-right: 8%;
+    padding-left: 8%; } }
+@media (min-width: 769px) {
+  .container {
+    padding-left: 15%;
+    padding-right: 15%; } }
+
+.underline {
+  border-bottom: 3px solid #333; }
+
+.link {
+  color: #3498db;
+  text-decoration: none; }
+
+.samples {
+  color: #757575; }
+
+.twitter a {
+  color: #6CADDE; }
+
+.github a {
+  color: #4183C4; }
+
+.linkedin a {
+  color: #0077B5; }
+
+@media (min-width: 769px) {
+  .social-links {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    *zoom: 1;
+    float: left; }
+    .social-links li {
+      list-style-image: none;
+      list-style-type: none;
+      margin-left: 0;
+      white-space: nowrap;
+      float: left;
+      padding-left: 10px;
+      padding-right: 10px; }
+      .social-links li:first-child {
+        padding-left: 0; }
+      .social-links li:last-child {
+        padding-right: 0; }
+      .social-links li.last {
+        padding-right: 0; } }
+
+html {
+  font-size: 100%;
+  line-height: 1.5em; }
+
+body {
+  font-family: "Playfair Display", serif; }
+
+.welcome {
+  font-size: 4em;
+  line-height: 1.125em;
+  margin-bottom: 0.75em; }
+
+.lead {
+  font-size: 2.25em;
+  line-height: 1.33333em;
+  margin-bottom: 0.66667em; }
+
+.social-links, .samples, .welcome {
+  margin-top: 1.5em; }

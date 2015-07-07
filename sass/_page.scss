@@ -1,0 +1,44 @@
+*{
+	@include box-sizing(border-box);
+}
+body{
+	color: $text-color
+}
+.container{
+	@include mobile;
+}
+
+.underline{
+	border-bottom: 3px solid #333;
+}
+.link{
+	color: $link-color;
+	text-decoration: none;
+}
+.samples{
+	color: $light-text;
+}
+.twitter{
+	a{
+		color: $twitter;
+	}
+}
+.github{
+	a{
+		color: $github;
+	}
+}
+.linkedin{
+	a{
+		color: $linkedin;
+	}
+}
+// Layout 
+
+.social-links{
+	@media(min-width:769px){
+		@include horizontal-list(10px, left);
+		@include float-left;
+	}
+
+}
