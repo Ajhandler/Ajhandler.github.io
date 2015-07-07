@@ -33,6 +33,13 @@ body{
 		color: $linkedin;
 	}
 }
+// Effects 
+
+
+// Effect Helpers
+%null-transition{
+  transition: none;
+}
 // Layout 
 
 .social-links{
@@ -41,4 +48,19 @@ body{
 		@include float-left;
 	}
 
+}
+
+*{
+  &:first-child{margin-top: 0;}
+  &::selection{
+   
+  }
+  &, &:before, &:after{
+    box-sizing: border-box;
+    transition: background-color $duration, color 5ms;
+  }
+}
+
+h2,a,p{
+	transition: none;
 }

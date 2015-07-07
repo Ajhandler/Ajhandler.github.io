@@ -1,1 +1,1 @@
-$(document).ready(function(){$("[data-typer-targets]").typer()});
+$(document).ready(function(){$("[data-typer-targets]").typer(),function(){function t(t,r){$(t).hover(function(){var t=r;n.css({background:t}),links.css({color:"#fff"}),e.css({color:"#fff"})},function(){n.removeAttr("style"),links.removeAttr("style"),e.removeAttr("style")})}var r=[[".twitter","#53ade9"],[".github","#4183C4"],[".linkedin","#0279b1"]],n=$(".brand-bg"),e=$("#color");links=$(".link");for(var o=0;o<r.length;o++)t(r[o][0],r[o][1]);$("p > img").unwrap()}($)});

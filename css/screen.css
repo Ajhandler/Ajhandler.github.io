@@ -109,6 +109,15 @@ body {
       .social-links li.last {
         padding-right: 0; } }
 
+*:first-child {
+  margin-top: 0; }
+*, *:before, *:after {
+  box-sizing: border-box;
+  transition: background-color 300ms, color 5ms; }
+
+h2, a, p {
+  transition: none; }
+
 html {
   font-size: 100%;
   line-height: 1.5em; }

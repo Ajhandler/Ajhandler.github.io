@@ -2,6 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display);
 
 // Colors
+$primary: white;
 $text-color: #424242;
 $light-text: lighten($text-color,20%);
 $link-color: #3498db;
@@ -13,6 +14,10 @@ $github: #4183C4;
 $main-font: 'Playfair Display', serif;
 $base-font-size: 16px;
 $base-line-height: 24px;
+
+
+// animation
+$duration: 300ms;
 
 // Mixins
 @mixin mobile {
