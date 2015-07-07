@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-@import url("http://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css");
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -64,8 +64,8 @@ body {
     padding-left: 8%; } }
 @media (min-width: 769px) {
   .container {
-    padding-left: 15%;
-    padding-right: 15%; } }
+    padding-left: 12%;
+    padding-right: 12%; } }
 
 .underline {
   border-bottom: 3px solid #333; }
